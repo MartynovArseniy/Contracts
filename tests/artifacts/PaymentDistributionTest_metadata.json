@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeEach",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testDepositAndMakePayment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testGetBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/FundDistribution_test.sol": "PaymentDistributionTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FundDistribution.sol": {
+			"keccak256": "0xb966e42acda7cb23f6e0a3dc664fd4291e0797e0ed88eebeb6e68c1877915385",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://66f7abfcfeceb8011eae420da51a8af7e1574123fb6b910e8c87a3824b2c6af9",
+				"dweb:/ipfs/QmZw2hWspr78AVYCRE6rq9Gaa47ieLWCmDdoPyAFUJ8kXr"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/FundDistribution_test.sol": {
+			"keccak256": "0xa528037bbfee457062918e9046962dfb4dbcb18a97037944629fe25dc1eecd5d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0b65407c22ede827f07997b100b5829354c8cb2978a51b0df1dd2f5e8e0587cc",
+				"dweb:/ipfs/QmU9eSPUGSoWfsh1iimGnDV14skqz71fwtuzAPkkX7wN5c"
+			]
+		}
+	},
+	"version": 1
+}

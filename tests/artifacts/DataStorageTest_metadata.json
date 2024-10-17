@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeEach",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testDeleteData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testUpdateData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testWriteData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/DataStorage_test.sol": "DataStorageTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DataStorage.sol": {
+			"keccak256": "0x7aa0fdda10268d9b602de7779c84891de62747443d5b650c3ef53015884a00ef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b451ede07f550206d46ba0f0f8f16472ccfd721d3df1c7864225651575e3780b",
+				"dweb:/ipfs/QmRK5YPzb8qyg149gWvg8oGzhruoxNGXyM4PncNRUMAnM5"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/DataStorage_test.sol": {
+			"keccak256": "0xe524f0914827bdd898418896b8e07fc953ad67c602777740fdd2ae56c7fc58e1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://90cfefc83185b0af0e180237da5746e2b19ba18f513d24e0cb28141048f6b50b",
+				"dweb:/ipfs/QmXdJiUe8x5nHcYY5DWxfKqRgCVVpQoVbUKAt1BFfdAWCb"
+			]
+		}
+	},
+	"version": 1
+}

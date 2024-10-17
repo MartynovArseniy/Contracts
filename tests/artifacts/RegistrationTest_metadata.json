@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeEach",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testDeactivateUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testIsRegisteredUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testRegisterUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/Registration_test.sol": "RegistrationTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Registration.sol": {
+			"keccak256": "0x156f72463f5ad0d1710d6cc45d5baa25ba1e57ec4f6633fedd2b1cbd6c471e89",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d9e7f1679a9503e82283a044426ad5b1759b2f733ae2df7a0beefa8721aa498c",
+				"dweb:/ipfs/QmVPfk7mdFtGdjjG7jdhCA6f5kSVuaYSvfzNpnrveUyhbZ"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/Registration_test.sol": {
+			"keccak256": "0x9459f217ca2f9afa136a408598a73d547c72d7c1cd14dc622aab99d0a2e9e008",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://63f93ec0f19ab0cc3aea0a29d8379d7c074301a6bdc2cc6586c4f9bee5b72f23",
+				"dweb:/ipfs/QmfAxiyr4oXn9iagQyzr4gCo8Zdwiqu9gg1hQMKEayqgk2"
+			]
+		}
+	},
+	"version": 1
+}

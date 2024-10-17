@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_arg1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_arg2",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "arg1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "arg2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TestVerifyContract.sol": "TestVerifyContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TestVerifyContract.sol": {
+			"keccak256": "0xdb50cd9603098888de1945ca9030a832fb25ad523b9c37471b320019afa0c6b4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://135da3bfb148bf9a3cf3553b32bcbcbc88ce3479e46643df822624463ce7ce52",
+				"dweb:/ipfs/QmUfTZpgiELNDjCGpqbQsvAMs4KPMhqqJQAzpQsMBPsGiv"
+			]
+		}
+	},
+	"version": 1
+}

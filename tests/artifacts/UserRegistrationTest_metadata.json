@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeEach",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testAuthenticateUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testDeactivateUnregisteredUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testDeactivateUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testDuplicateRegistration",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testRegisterNewUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/ReRegistration_test.sol": "UserRegistrationTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ReRegistration.sol": {
+			"keccak256": "0x97ade59e762093849a5baf369a91104173aa7bb396de46273a92f1c1d12da1e4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://72ad68d681ee1d0cdd8ae31f1181aa27f34fbde72a87d72b1aff2c6a94337938",
+				"dweb:/ipfs/QmPfri44FRnLuFQi7yCjtHYCnZ1kvPkQhEEbCEG9tJkrU5"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/ReRegistration_test.sol": {
+			"keccak256": "0x4cf11550b46fc9ee6e5f2c6536beb264546a7765773f74c9adb7169e836e343a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8eb719ac4d83d1f8cc201c4d9ac7d110d362aed23fa32ab543412c6f651b99d9",
+				"dweb:/ipfs/QmawvbfVsno6dFd8oJuxqVXWMaKUsnPdozUFmRbdvuMeqa"
+			]
+		}
+	},
+	"version": 1
+}
